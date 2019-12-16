@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EggFontExt_Example' do
+  pod 'EggFontExt', :path => '../'
+
+  target 'EggFontExt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
